@@ -1,0 +1,22 @@
+{
+    "name": "minifabric-node-js-app",
+    "version": "1.0.0",
+    "scripts": {
+        "execute-txs": "node execute-txs.js",
+        "watch-events": "node events.js",
+        "events-consumer": "node queue/consumer.js"
+    },
+    "description": "Minifabric node js application",
+    "engines": {
+        "node": ">=12",
+        "npm": ">=5"
+    },
+    "engineStrict": true,
+    "author": "Minifabric",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "amqplib": "^0.10.4",
+        "fabric-ca-client": "^2.2.2",
+        "fabric-network": "^2.2.2"
+    }
+}

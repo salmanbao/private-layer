@@ -1,0 +1,108 @@
+{
+  "name": "fabric-network",
+  "x-type": "hlfv1",
+  "version": "1.0.0",
+  "channels": {
+    "channel1": {
+      "orderers": [
+        "orderer1.example.com"
+      ],
+      "peers": [
+        "peer1.org0.example.com",
+        "peer2.org0.example.com"
+      ]
+    }
+  },
+  "organizations": {
+    "example.com": {
+      "mspid": "example-com",
+      "peers": [
+      ],
+      "orderers": [
+        "orderer1.example.com"
+      ]
+    },
+    "org0.example.com": {
+      "mspid": "org0-example-com",
+      "peers": [
+        "peer1.org0.example.com",
+        "peer2.org0.example.com"
+      ],
+      "orderers": [
+      ],
+      "certificateAuthorities": [
+        "ca1.org0.example.com"
+      ]
+    }
+  },
+  "orderers": {
+    "orderer1.example.com": {
+      "url": "grpcs://192.168.100.253:7105",
+      "grpcOptions": {
+        "ssl-target-name-override": "orderer1.example.com"
+      },
+      "tlsCACerts": {
+        "pem": "-----BEGIN CERTIFICATE-----\nMIICojCCAkigAwIBAgIUD8x1cuFXeDYlqSWVPI/1AuWW6pgwCgYIKoZIzj0EAwIw\najELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH\nDAdSYWxlaWdoMRQwEgYDVQQKDAtleGFtcGxlLmNvbTEaMBgGA1UEAwwRdGxzY2Eu\nZXhhbXBsZS5jb20wHhcNMjUwMTE4MTUyNTM5WhcNMzUwMTE2MTUyNTM5WjBqMQsw\nCQYDVQQGEwJVUzEXMBUGA1UECAwOTm9ydGggQ2Fyb2xpbmExEDAOBgNVBAcMB1Jh\nbGVpZ2gxFDASBgNVBAoMC2V4YW1wbGUuY29tMRowGAYDVQQDDBF0bHNjYS5leGFt\ncGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABBWSbkfaL+5KcZq3hmrs\nAi7Kq3+JWBEc4nVkZ7Jy+AXpdedmcgUdGfXyZCzWTs1dGl22hzZgl+J+52G8t7mX\ndrSjgcswgcgwHQYDVR0OBBYEFEl3hwDP9CgFAPFkbdymqjEnyTT/MB8GA1UdIwQY\nMBaAFEl3hwDP9CgFAPFkbdymqjEnyTT/MA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0P\nAQH/BAQDAgGmMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBGBgNVHREE\nPzA9hwTAqGT9ghF0bHNjYS5leGFtcGxlLmNvbYIRdGxzY2EtZXhhbXBsZS1jb22C\nCWxvY2FsaG9zdIcEfwAAATAKBggqhkjOPQQDAgNIADBFAiEA7dbcOE7bT9DdWOx0\nrmDR2hGbFu/ERTFE4TzBOEiEiEQCIDLHFbZmBEMBQKBKc2u+3srlJgggbO8YcpQP\nmaa7b68O\n-----END CERTIFICATE-----"
+      }
+    }
+  },
+  "peers": {
+    "peer1.org0.example.com": {
+      "url": "grpcs://192.168.100.253:7101",
+      "grpcOptions": {
+        "ssl-target-name-override": "peer1.org0.example.com"
+      },
+      "tlsCACerts": {
+        "pem": "-----BEGIN CERTIFICATE-----\nMIICxDCCAmqgAwIBAgIUQwvE2epIkWYjQmsynM50+MBcFd0wCgYIKoZIzj0EAwIw\ndTELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH\nDAdSYWxlaWdoMRkwFwYDVQQKDBBvcmcwLmV4YW1wbGUuY29tMSAwHgYDVQQDDBd0\nbHNjYTEub3JnMC5leGFtcGxlLmNvbTAeFw0yNTAxMTgxNTI1NDdaFw0zNTAxMTYx\nNTI1NDdaMHUxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQ\nMA4GA1UEBwwHUmFsZWlnaDEZMBcGA1UECgwQb3JnMC5leGFtcGxlLmNvbTEgMB4G\nA1UEAwwXdGxzY2ExLm9yZzAuZXhhbXBsZS5jb20wWTATBgcqhkjOPQIBBggqhkjO\nPQMBBwNCAAR7kmVo79Uk0/225wuVVnBdPV+lZv8e6e3AtLA/qvhXAS8VHnJfs1BO\njFwUQRgdFesYV4ukTYcSPkeXrTqQp7/bo4HXMIHUMB0GA1UdDgQWBBRHx9rpcGwi\n1yap80VqVoe/2Zcr5TAfBgNVHSMEGDAWgBRHx9rpcGwi1yap80VqVoe/2Zcr5TAP\nBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEF\nBQcDAQYIKwYBBQUHAwIwUgYDVR0RBEswSYcEwKhk/YIXdGxzY2ExLm9yZzAuZXhh\nbXBsZS5jb22CF3Rsc2NhMS1vcmcwLWV4YW1wbGUtY29tgglsb2NhbGhvc3SHBH8A\nAAEwCgYIKoZIzj0EAwIDSAAwRQIgWVeke7+PFFw4CLTZ8GflRdzUY7ez1EnsimS2\nbgFHc/oCIQDpWExMvz3UuUSl8Jgk6YzkRjQk8Q/WtvsvEPuAqz4Nkw==\n-----END CERTIFICATE-----"
+      }
+    },
+    "peer2.org0.example.com": {
+      "url": "grpcs://192.168.100.253:7102",
+      "grpcOptions": {
+        "ssl-target-name-override": "peer2.org0.example.com"
+      },
+      "tlsCACerts": {
+        "pem": "-----BEGIN CERTIFICATE-----\nMIICxDCCAmqgAwIBAgIUQwvE2epIkWYjQmsynM50+MBcFd0wCgYIKoZIzj0EAwIw\ndTELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH\nDAdSYWxlaWdoMRkwFwYDVQQKDBBvcmcwLmV4YW1wbGUuY29tMSAwHgYDVQQDDBd0\nbHNjYTEub3JnMC5leGFtcGxlLmNvbTAeFw0yNTAxMTgxNTI1NDdaFw0zNTAxMTYx\nNTI1NDdaMHUxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQ\nMA4GA1UEBwwHUmFsZWlnaDEZMBcGA1UECgwQb3JnMC5leGFtcGxlLmNvbTEgMB4G\nA1UEAwwXdGxzY2ExLm9yZzAuZXhhbXBsZS5jb20wWTATBgcqhkjOPQIBBggqhkjO\nPQMBBwNCAAR7kmVo79Uk0/225wuVVnBdPV+lZv8e6e3AtLA/qvhXAS8VHnJfs1BO\njFwUQRgdFesYV4ukTYcSPkeXrTqQp7/bo4HXMIHUMB0GA1UdDgQWBBRHx9rpcGwi\n1yap80VqVoe/2Zcr5TAfBgNVHSMEGDAWgBRHx9rpcGwi1yap80VqVoe/2Zcr5TAP\nBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEF\nBQcDAQYIKwYBBQUHAwIwUgYDVR0RBEswSYcEwKhk/YIXdGxzY2ExLm9yZzAuZXhh\nbXBsZS5jb22CF3Rsc2NhMS1vcmcwLWV4YW1wbGUtY29tgglsb2NhbGhvc3SHBH8A\nAAEwCgYIKoZIzj0EAwIDSAAwRQIgWVeke7+PFFw4CLTZ8GflRdzUY7ez1EnsimS2\nbgFHc/oCIQDpWExMvz3UuUSl8Jgk6YzkRjQk8Q/WtvsvEPuAqz4Nkw==\n-----END CERTIFICATE-----"
+      }
+    }
+  },
+  "certificateAuthorities": {
+    "ca1.org0.example.com": {
+      "url": "https://192.168.100.253:7100",
+      "tlsCACerts": {
+        "pem": "-----BEGIN CERTIFICATE-----\nMIICuDCCAl6gAwIBAgIUE+QN/t23pyuzVGyc6Sh76nD5knEwCgYIKoZIzj0EAwIw\ncjELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH\nDAdSYWxlaWdoMRkwFwYDVQQKDBBvcmcwLmV4YW1wbGUuY29tMR0wGwYDVQQDDBRj\nYTEub3JnMC5leGFtcGxlLmNvbTAeFw0yNTAxMTgxNTI1NDdaFw0zNTAxMTYxNTI1\nNDdaMHIxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQMA4G\nA1UEBwwHUmFsZWlnaDEZMBcGA1UECgwQb3JnMC5leGFtcGxlLmNvbTEdMBsGA1UE\nAwwUY2ExLm9yZzAuZXhhbXBsZS5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC\nAAR7JDuOUACqfUTqwBcwJke2rNdfDEcieDdh3TJdbgexTMI/j5Hr1gCRiNRYwkth\nnx8zw7zJxT53+HXvlJJbcVeio4HRMIHOMB0GA1UdDgQWBBSE5eou2Qbo6bdabK40\nfkXNyIJs4jAfBgNVHSMEGDAWgBSE5eou2Qbo6bdabK40fkXNyIJs4jAPBgNVHRMB\nAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAQYI\nKwYBBQUHAwIwTAYDVR0RBEUwQ4cEwKhk/YIUY2ExLm9yZzAuZXhhbXBsZS5jb22C\nFGNhMS1vcmcwLWV4YW1wbGUtY29tgglsb2NhbGhvc3SHBH8AAAEwCgYIKoZIzj0E\nAwIDSAAwRQIgVnsQ3czp1vVQWfAP6QjIY+INYd9S8AX//+NV6+1C7B0CIQDFMt1b\nlJ9j0oi/oaGeFrKG/6Kb4MupnlAwYEgJsrIK2g==\n-----END CERTIFICATE-----"
+      },
+      "httpOptions": { "verify": "false" },
+      "caName": "ca1",
+      "registrar": { "enrollId": "admin", "enrollSecret": "adminpw" }
+    }
+  },
+  "entityMatchers": {
+    "orderer": [
+      { "mappedHost": "orderer1.example.com",
+        "pattern": "(\\w*)orderer1.example.com(\\w*)",
+        "sslTargetOverrideUrlSubstitutionExp": "orderer1.example.com",
+        "urlSubstitutionExp": "192.168.100.253:7105"
+      }
+    ],
+    "peer": [
+      { "mappedHost": "peer1.org0.example.com",
+        "pattern": "(\\w*)peer1.org0.example.com(\\w*)",
+        "sslTargetOverrideUrlSubstitutionExp": "peer1.org0.example.com",
+        "urlSubstitutionExp": "192.168.100.253:7101"
+      },
+      { "mappedHost": "peer2.org0.example.com",
+        "pattern": "(\\w*)peer2.org0.example.com(\\w*)",
+        "sslTargetOverrideUrlSubstitutionExp": "peer2.org0.example.com",
+        "urlSubstitutionExp": "192.168.100.253:7102"
+      }
+    ],
+  "certificateAuthorities": [
+      { "mappedHost": "ca1.org0.example.com",
+        "pattern": "(\\w*)ca1.org0.example.com(\\w*)",
+        "sslTargetOverrideUrlSubstitutionExp": "ca1.org0.example.com",
+        "urlSubstitutionExp": "192.168.100.253:7100"
+      }
+    ]
+  }
+}
