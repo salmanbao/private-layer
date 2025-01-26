@@ -1,0 +1,702 @@
+[
+  {
+    "dataID": "8ea04f7d90dd28c6b892547c8e14ed6c6eb368747360d85669aac79c3a2580e8",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "41290d2851ba9e181f1f715d95e00de7a3fdeb780196462c6022310b9beba2bb",
+    "timestamp": "2025-01-21T20:06:26.879Z"
+  },
+  {
+    "dataID": "da57d965fc700f3b7c5167382b7b0abef5eafbd20295aaa34ef7ed2dd48e5ceb",
+    "isValid": true,
+    "executionTime": 16,
+    "transactionId": "b7e46b42488e13bf0243ca0464a08c0b8e16772fec889d16dd760b698c4dfb4b",
+    "timestamp": "2025-01-21T20:06:28.960Z"
+  },
+  {
+    "dataID": "e7b2d965e19e26565ff8d8e3657494b5901f60b80a042323d88b1390167c9df3",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "92be21e025ac04ff49cd6eff64b2e8f606e51e6f3ae8415e2a4289b7f1f2a34c",
+    "timestamp": "2025-01-21T20:06:42.928Z"
+  },
+  {
+    "dataID": "bf4d779d620c8624b4faec1ed82c6715b89ebc12dc8f10d0bb18a577a7ae71bb",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "8c5cdf7f92ae88712fa5f687f1276e9c10728a27801aec2a3941f1340efa9265",
+    "timestamp": "2025-01-21T20:06:42.931Z"
+  },
+  {
+    "dataID": "d93976cef8a5f8f64e4b429045f1e23eaaacb7647075958e3005b0be1b1c4251",
+    "isValid": true,
+    "executionTime": 16,
+    "transactionId": "c37bb4bdd5b0f98cab4dcf4bfdb57e6e7a118090c2b4fb759d5cc82169ad4d38",
+    "timestamp": "2025-01-21T20:07:54.195Z"
+  },
+  {
+    "dataID": "7c0b5686b520400de109cd873d9fd11cd1759819198f397387366e98d383911e",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "f28bfe33f89449e09fd33fa418e32ae962805cf032114c88029dc158ec20061a",
+    "timestamp": "2025-01-21T20:07:58.347Z"
+  },
+  {
+    "dataID": "3c2aeadc8386cc417d37d21c1f0db8e243405de02baff92c630b53e76b0666f5",
+    "isValid": true,
+    "executionTime": 21,
+    "transactionId": "31f042025dabf47f907df0ff33c8948bbee75046b50067c098eea1195e8e9109",
+    "timestamp": "2025-01-21T20:08:04.078Z"
+  },
+  {
+    "dataID": "0810e53becfc82e33b6d01c64e855fb47ddb8036f3a7ae24f8162750d26a6e45",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "45ef391f5c7b740744e6693b534c3af12db5d17d3bfbddf25f3d06f4e363eb09",
+    "timestamp": "2025-01-21T20:08:07.590Z"
+  },
+  {
+    "dataID": "20878e25f42d0b9e3cd9e2f9989b792a2d8204582b5429d95979a7fbeae9a857",
+    "isValid": true,
+    "executionTime": 19,
+    "transactionId": "b6c025a6ee262166fa406c28e00de6a7a3eb5f9b368820eabe5a2c5f92c7806e",
+    "timestamp": "2025-01-21T20:08:11.603Z"
+  },
+  {
+    "dataID": "cbef8bfda8ab107a2bb74469dc97a027e5fc62803dde89377ac56ab1458dd11c",
+    "isValid": true,
+    "executionTime": 19,
+    "transactionId": "7dcaf3246b23ca256636d0ed1ae588161fc772a769ccf0268584dd9ef2c2aef9",
+    "timestamp": "2025-01-21T20:08:15.603Z"
+  },
+  {
+    "dataID": "e23b754ce404e6330ab1f92cdb48617bb42f0e554b0de62475852ff0e6476d09",
+    "isValid": true,
+    "executionTime": 16,
+    "transactionId": "88e860aeef75ad5f758c288afe75c96ed8de5f3bb26174532dc201f6fd90fd7a",
+    "timestamp": "2025-01-21T20:10:55.425Z"
+  },
+  {
+    "dataID": "7d3f67a70bc9b076cb36745601461da977bfa5f928dfb9631a69684db3f67ee8",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "eb0befbec2d2a37135d3c54268aadd9dae60c32be004363f129a0a449803bf47",
+    "timestamp": "2025-01-21T20:10:55.434Z"
+  },
+  {
+    "dataID": "3ab8691bdadc75fffb8aaf62dfd245bda364fcdd9fe48dd16bf6d5c59a675f58",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "9a0891a398bb774347c3006b51450badb4bfb3006a7a6cc9b66ed142b69c1c04",
+    "timestamp": "2025-01-21T20:11:03.787Z"
+  },
+  {
+    "dataID": "e8b2ec54f1e863bcd5811d4d157f7655403ac49f510ebd8d91276026dc9f0247",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "ea813e0d92ad7f474c914c0721a2bead22ea06929bd07f43d017f0fd23922429",
+    "timestamp": "2025-01-21T20:11:07.996Z"
+  },
+  {
+    "dataID": "d1471f39440a4607d1775fe2a72ad9c1c8a06f659b4c818de4aedc5e209551c5",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "88424dc17e91f0a7764b72ab5d26d5dac92a2c853449e6f642256de7cc8a2c56",
+    "timestamp": "2025-01-21T20:11:12.210Z"
+  },
+  {
+    "dataID": "c1ff225b1b14ef1ad1b70b7d496c207e01d4d27b6cf69b80e545c30e3fb244ab",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "7cad467ab6a327157238284dcb4acd3edaabb441ed14fea3b5e3d5b928950d25",
+    "timestamp": "2025-01-21T20:11:18.472Z"
+  },
+  {
+    "dataID": "ac8c0f9b6627ff4ee30635af22faeb43e68dc8a6aaa417d7f34d149d3e1319d7",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "7482b8d066d10d1e0b2583f439cf5227ce24d0492d929a8013e8a0a014cde497",
+    "timestamp": "2025-01-21T20:11:22.623Z"
+  },
+  {
+    "dataID": "72dd728bb2c9e811b21bf814bce50257d75b1d377cff280d1eeef6ee24e19930",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "34efa4f0e4a3a591d9a73b6b38c83dedbbb6beb49d1c3949cabdd45b84911c50",
+    "timestamp": "2025-01-21T20:11:35.160Z"
+  },
+  {
+    "dataID": "31c1cf531814acd175f2f9d38ed760e28dfa638afa0fe87f5ffca3bbf57e2246",
+    "isValid": true,
+    "executionTime": 19,
+    "transactionId": "ba050f6e17b29d296881586fd9636fd7968c364f06a451bae90e030b698159e3",
+    "timestamp": "2025-01-21T20:11:39.355Z"
+  },
+  {
+    "dataID": "ab620cefdebb60a652687ffda8d40792abd09e00b2c114f1a952c094816d8311",
+    "isValid": true,
+    "executionTime": 16,
+    "transactionId": "5bd46b0e3bbfb219416153c98f07c3973e78d4ebb815783a330eaa8588113587",
+    "timestamp": "2025-01-21T20:11:43.513Z"
+  },
+  {
+    "dataID": "eb5a7b1faaa2c8b99ddc2df41627f92c79f0924d35b506d374996c4cf5d0b8fc",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "df86d06589b958bfafc4079e64e978532fc0aa6fc2106675bc1ccb6050a8c321",
+    "timestamp": "2025-01-21T20:11:47.721Z"
+  },
+  {
+    "dataID": "06b382c2051a14a2ef953d3e92aa0b03ba5e7f8011471c400f25236b58ede871",
+    "isValid": true,
+    "executionTime": 21,
+    "transactionId": "c4f0043146b1d2b56a99f78c07aa07a838bf888937b779e42f73bfa4ef806979",
+    "timestamp": "2025-01-21T20:11:51.887Z"
+  },
+  {
+    "dataID": "41e05338de96391ab04785c09aa76fb2986d9fb41e77b5ca0329ef04f9ed9d66",
+    "isValid": true,
+    "executionTime": 15,
+    "transactionId": "67e207426335b08d94088226ceac2daa0c0bbf1191a5a7caa9a57d6fb0ec3882",
+    "timestamp": "2025-01-21T20:11:56.074Z"
+  },
+  {
+    "dataID": "d40a5a00dd0f287bc99daa2b6f9e3aa51a6f1b20465c6c499e0b182c90c30295",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "e416360d4aa57e0100224430e7ea237f76a37e3d16c1abe2367851990b9b57c8",
+    "timestamp": "2025-01-21T20:12:00.264Z"
+  },
+  {
+    "dataID": "27c3cff54128b8fb408b6089674d3999f23f4bb0cc5ae1a4e1e85994ff22d560",
+    "isValid": true,
+    "executionTime": 20,
+    "transactionId": "38ecfc5f6c3695560c1c84ded9133bd536e869d7b43959c1cb5c970d30a2288f",
+    "timestamp": "2025-01-21T20:12:04.479Z"
+  },
+  {
+    "dataID": "27e6a615985f15705c4861c4ae01bafdc5113529ad62df18fb206033dc10b897",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "7fb9501b6a926b9990b183753f8d0f7a1d9319195dae72ef9a837a7511d737bc",
+    "timestamp": "2025-01-21T20:12:08.636Z"
+  },
+  {
+    "dataID": "4e424bc364c2200aa79a75b2d1904dd60855a5886884c39430d1a248f5da5fad",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "91161b7e919831172984941bc200d47b731775d894a987d53840c6c0354eecd7",
+    "timestamp": "2025-01-21T20:12:12.792Z"
+  },
+  {
+    "dataID": "341960309bb78dbdc0c8e0279c6af2eb6deeea4c33b0c0941495d1bf1d097ed2",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "990c2c952efe0f15e32bd62176b28ce1c812e0fbc48721461b48cf8399bf9fec",
+    "timestamp": "2025-01-21T20:12:24.816Z"
+  },
+  {
+    "dataID": "1e11213ab6fdd7e1901286f5941c79f7cbc670f34bc714b88f3a3ab652a5c3e7",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "af0334d23418da8c13430bf3f605b4d54c2cdbb82ccffaca8be8ce31f000d5b3",
+    "timestamp": "2025-01-21T20:12:24.819Z"
+  },
+  {
+    "dataID": "a33b241d116ff60fdfd83cae7a4ba802bd0a87dad2474eb4b5aa33d853114aca",
+    "isValid": true,
+    "executionTime": 16,
+    "transactionId": "959b1255f0765a7dcaa46652188ec7751110b8c568393c681d78a53aaac80f58",
+    "timestamp": "2025-01-21T20:12:32.867Z"
+  },
+  {
+    "dataID": "61124e72f3f71fe13462dba40604c7f0c7838b6ad5227e1de52fd77186ed1b5a",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "10ceb7ed039b85e551d905b781592834d1cb5503be3a5abe46bfc4518bb99d30",
+    "timestamp": "2025-01-21T20:12:36.833Z"
+  },
+  {
+    "dataID": "686203fcd061fe5ed1fea0f7313069715e717c162ffcdae1167664868256f6d0",
+    "isValid": true,
+    "executionTime": 16,
+    "transactionId": "5d8a7c01e4ad170f06b8d28c94db3159f87d89e8db34e9c11703111e93d54ed1",
+    "timestamp": "2025-01-21T20:15:24.106Z"
+  },
+  {
+    "dataID": "6306510fb2537601f947234e79e1564d44e49c843eea36dace88715078f17f52",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "76ec7c8c68f8896a020dce6acdbf2f4d73c17a9a7fa9d2fbe781b8850f6269ac",
+    "timestamp": "2025-01-21T20:15:28.283Z"
+  },
+  {
+    "dataID": "8b400bfa8893bef60c3799a3888b98d1b063d9e9f32b0dc829037181a5041bd1",
+    "isValid": true,
+    "executionTime": 20,
+    "transactionId": "35b387b7f0a3b449c42ae399c8621bba40e7ef040b5b7fcb29b1db6f2dcdad30",
+    "timestamp": "2025-01-21T20:15:32.446Z"
+  },
+  {
+    "dataID": "5210fb4a361d7f0147c4dcd33dfd791bdabd87eb22f423efbb2e284ae6aa9593",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "fa597b567dbf8ebb62071d23dd087f8eb87d32011f6e0a1e0aad31c74a990269",
+    "timestamp": "2025-01-21T20:15:36.706Z"
+  },
+  {
+    "dataID": "2a71489d6192fd0321f119f1a6309d3b33519d27ae098bdacdcc881419a03431",
+    "isValid": true,
+    "executionTime": 20,
+    "transactionId": "20c09be5d6589eb8baecc6cc24e60d04c58d8660c499f3e4757733f323f2baf7",
+    "timestamp": "2025-01-21T20:15:40.909Z"
+  },
+  {
+    "dataID": "5ad7e07f6fbb5fb78783f269781b8b94a585eb3c767dc5e1c135064230904a4d",
+    "isValid": true,
+    "executionTime": 19,
+    "transactionId": "3a0a4ed09d0f06feeb6b9167e1bb24cf863676f4fe95ec3e7dd30975b68dd107",
+    "timestamp": "2025-01-21T20:15:45.314Z"
+  },
+  {
+    "dataID": "4826aaeaa492e176882fd145012bdb475298bd717fcbbcc230097d623ee67006",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "5009216f67f58eb19f49b8a60b03320c4ae4a70c629c4be4f084671015b418ca",
+    "timestamp": "2025-01-21T20:15:47.476Z"
+  },
+  {
+    "dataID": "312630c8590a0062df98d6737d657539e435a5d9a876b5e4a71e1f1735004c76",
+    "isValid": true,
+    "executionTime": 19,
+    "transactionId": "80802b0a2383668093568eff878a7b93a025d086a65ff606f41d11291a3f5f85",
+    "timestamp": "2025-01-21T20:15:53.765Z"
+  },
+  {
+    "dataID": "12fe0e95693f8e4e1b25e73d88bc9142d7f1983ddfd2afe54eaa6b4e4f6a02d1",
+    "isValid": true,
+    "executionTime": 19,
+    "transactionId": "61f88b9b8ee5d276ce60fa4161387bf20a64a781140b13ecd8058c0a6c6e0f3e",
+    "timestamp": "2025-01-21T20:15:57.875Z"
+  },
+  {
+    "dataID": "7c0bd6da1d1277f5970e47d224f1a24edfaa4581c5534a3234c65c1ca2f0a246",
+    "isValid": true,
+    "executionTime": 16,
+    "transactionId": "59c48620adc79af15bde0c9e66e66ac219a7238a796cc54b8677bc9f1422118c",
+    "timestamp": "2025-01-21T20:15:59.989Z"
+  },
+  {
+    "dataID": "adeec13320885d5f89ae7d1d3d832628fad07a0e4db7fd4eb58631969f0d8e27",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "360b1b8c782190374b7d280816b15503776b426340c986307a2e2fb9dccda72d",
+    "timestamp": "2025-01-21T20:16:04.216Z"
+  },
+  {
+    "dataID": "75f22a3b606806d3d5f06e5dfc109415779a744a37a1e7d27db0a39754ca1a4b",
+    "isValid": true,
+    "executionTime": 20,
+    "transactionId": "3eb4307187060a58b5d57386e90e172276d66dcc437adbe59472f52840601722",
+    "timestamp": "2025-01-21T20:16:08.382Z"
+  },
+  {
+    "dataID": "c59d9beafc472c5188983aa0cb649330cccf493269f0199616d6f960b87d0d64",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "b7900dc7f53cbf44d6ea59b792100fc7e50b1eb0a9fb4777daa5f71980119f30",
+    "timestamp": "2025-01-21T20:16:12.542Z"
+  },
+  {
+    "dataID": "7ed6c734b7987866ebd454a9428c9d699d148cad4d49721d779fd3aae50267ac",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "6f8f6ebc47016727c119ac71e71123b795cddffd222017334300a3046aaf20ac",
+    "timestamp": "2025-01-21T20:16:16.717Z"
+  },
+  {
+    "dataID": "267e5275f580dbf6f1418fbf9ba8a2bb9a8e63b4b804354ac5831e164525d219",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "0f5ed1a9626ad654013e763b5e2f3fb93067420c59a748880adc0b72ea0a5c78",
+    "timestamp": "2025-01-21T20:16:20.890Z"
+  },
+  {
+    "dataID": "245e600a0b763e1e7f382340cb97132e2b286815a3d1a92533d1a4de645a31ac",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "2bcde3445abc5e5e47aebe5a1f83dad03aa3cc115866a1d8033167930f67d961",
+    "timestamp": "2025-01-21T20:16:25.055Z"
+  },
+  {
+    "dataID": "c03f41e55c6377556b358c8fca6217df918666cca95df1c77c637a99d91ad9bd",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "08533b86c29b3f32d5ff31c6c476648e7b4783e5f9fd95404395edf1f960adfb",
+    "timestamp": "2025-01-21T20:16:29.243Z"
+  },
+  {
+    "dataID": "cf7617a14d5d5c367b2474609d9ce42787b1e97b27250efeae7d9b385c61ef93",
+    "isValid": true,
+    "executionTime": 19,
+    "transactionId": "08dc2ea1fe9e009e359b831927052d9ccf6442d19bad639d2ca06d8f70e2030c",
+    "timestamp": "2025-01-21T20:16:29.245Z"
+  },
+  {
+    "dataID": "a0a581a8f26aa2a275de3920828a971689efb48b5d4a2cbbcf8d4f6dcf410c78",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "0a2be263f9a7aa6ba8175f6d84247351b6eadee2bca26dfa05b7c380760b7769",
+    "timestamp": "2025-01-21T20:16:35.573Z"
+  },
+  {
+    "dataID": "5d7898bbb4cb656ff1abc5d1a01d3689fcb9bdda306a3a681f5d653718cd4b22",
+    "isValid": true,
+    "executionTime": 19,
+    "transactionId": "74f29cc2216d60481b375282e180b34601b0516734fd4a1d6f1039a9d81e65d6",
+    "timestamp": "2025-01-21T20:16:39.744Z"
+  },
+  {
+    "dataID": "c48804804d0e82f9995eebeb7a76ee4e1f452f8f69cde61231dcda445d2cf942",
+    "isValid": true,
+    "executionTime": 16,
+    "transactionId": "306741c76539d6f92a4ae51aba1199c1e5ef07bbf4ac4435b23d226a9b5118a2",
+    "timestamp": "2025-01-21T20:16:48.075Z"
+  },
+  {
+    "dataID": "f1eca038af4d62ed47d01a97d03bdca7210951c9e041daaf1be1f97cf1398a44",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "64afb70798f4398d9d0313db98e98fab609f81c1122173ddfad4aba8c0507b14",
+    "timestamp": "2025-01-21T20:16:52.255Z"
+  },
+  {
+    "dataID": "1cac6313dc490787d971f79d9796bf986adb5ff1b620e672d2d938b829b139a4",
+    "isValid": true,
+    "executionTime": 19,
+    "transactionId": "de948e6e68a259112a02248b932fae49c88c2dcc42f5acd173033feb4a9e51a3",
+    "timestamp": "2025-01-21T20:16:58.496Z"
+  },
+  {
+    "dataID": "3cc11902724a19dbf00134992014f7d7951f730d053fcf49021fa4dbc9b0a974",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "ef6c52b2d405cca7f746f22c432621702bd6097006735f84901f0390a0441524",
+    "timestamp": "2025-01-21T20:17:01.982Z"
+  },
+  {
+    "dataID": "78eb185e5d23ca34edc1ac65eecb02225e8bd0d3f54b304a4e0c762cf2415d53",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "83ea4974edca78455294e9f907588160223beb241004d548959031e1f2c788f7",
+    "timestamp": "2025-01-21T20:17:01.983Z"
+  },
+  {
+    "dataID": "7839fa5f3fc743ae8d232cb7f93f2d260f0c3e280ca323bcc9b7cf777fa0ba56",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "39fa4112a4aea8b5f3110f0f8bb081592c3a7cc4ff7f37b28d24d94736c119ef",
+    "timestamp": "2025-01-21T20:17:05.990Z"
+  },
+  {
+    "dataID": "851c19a364a0e7c9c7f1666752569a9fbbb526338b279450a196b47a97f5eda6",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "28da3f7cd74b418bf0d2c1b5ca47dd98af576cfcdd53aaed916447bb6e9dfd3e",
+    "timestamp": "2025-01-21T20:17:10.007Z"
+  },
+  {
+    "dataID": "039f8cfa0a7282a4c3784352d16fbac2d9bc5d565141fbfc867a619b0427c4d0",
+    "isValid": true,
+    "executionTime": 19,
+    "transactionId": "7aeccffc2186357518fa14bbf7efb275f9a99bfc8c53be7ae39cca4fd3952d95",
+    "timestamp": "2025-01-21T20:17:10.009Z"
+  },
+  {
+    "dataID": "2ffd919b6c6ccf4b88f02b27c5e988ebdbf582e52e32b0fd397603394e9a8e89",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "da59c2f440a21ee581ac6915faba1d8866d49ded9d02f4851858849febd102f1",
+    "timestamp": "2025-01-22T14:38:54.185Z"
+  },
+  {
+    "dataID": "856f8ac78a61b4674b98fce3b5b49a670022963d4f08cab555df34d74fd26dd3",
+    "isValid": true,
+    "executionTime": 19,
+    "transactionId": "cee27f1ea3f2d8d80a4d7f636483460838bdf37e61373c82c7a4ac68cd5a993e",
+    "timestamp": "2025-01-22T14:38:58.559Z"
+  },
+  {
+    "dataID": "d8126ba35080d44df48f2347b188ea3f0649834e93e7407e8adcfd4dcf0ec417",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "e2e61765436ee2b147424cec880e7ecaa01ba20e8e571b646d9b496c7c26123d",
+    "timestamp": "2025-01-22T14:39:02.778Z"
+  },
+  {
+    "dataID": "cc2d1b7f89fd8e4005dcfd2bfcaa6f31e0f64b361840ef1b95a7cebc6b3d8c01",
+    "isValid": true,
+    "executionTime": 19,
+    "transactionId": "a625edd3ccb8f94ad600d3ccb8fca25b90dba920b3f95f9d1f9b056cfedf049d",
+    "timestamp": "2025-01-22T14:39:04.872Z"
+  },
+  {
+    "dataID": "45dbf0ea874ec27c628050f353849b3142bdfabadec6fd9acd65f54bdd0668ae",
+    "isValid": true,
+    "executionTime": 19,
+    "transactionId": "4094e4adf589eab01a1f3f83c78ce00d21cfe563d8450ee771f228d7bd119ca7",
+    "timestamp": "2025-01-22T14:39:11.256Z"
+  },
+  {
+    "dataID": "5fd3f106c28cdd4755a4a7a3daf061ebf748de12b4d0093a0a43f839d1d5dd3c",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "d93daeebb73b324b266d413fb9713099bc1d982a2bf5b849eb19bd5aeaf4705e",
+    "timestamp": "2025-01-22T14:39:13.350Z"
+  },
+  {
+    "dataID": "0d6b0ec4db3316e92dd836f300fd17b72742e362bc0af31013368848821843c8",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "556086a44a95d63b4654088d662f31fc66d3c87bdcd68586088f7af60cd49cf4",
+    "timestamp": "2025-01-22T14:39:18.585Z"
+  },
+  {
+    "dataID": "fd361edf5262676f24560bb81d9ef11d9cd175fb3d0dfa78c800244b0c12db44",
+    "isValid": true,
+    "executionTime": 20,
+    "transactionId": "aab5facdcd1032888463d5cbb36f99419349f45fbd0f2f94a62d26a9b66cbcd6",
+    "timestamp": "2025-01-22T14:39:23.032Z"
+  },
+  {
+    "dataID": "60e0472d70d147d9f1dc2efcb7302af93c698fe7e64b2c382ab47b5521b5fed7",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "1a5e69559c298cf7e6975f21ab48da1096908b89ee0716a1732838cbf369ba19",
+    "timestamp": "2025-01-22T14:39:26.566Z"
+  },
+  {
+    "dataID": "dc5cb770f503023fa333e41d8c8b65a0a2960f6993301234bca36b2ca26d6d42",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "886edff1b00d44956a5267fec13a5b1d2d38808598b38e4e5404a486f6091261",
+    "timestamp": "2025-01-22T14:39:30.573Z"
+  },
+  {
+    "dataID": "6280ec1679277e20302ddfc003af998f98fc9eb6338adef4aa9d08eb95311c72",
+    "isValid": true,
+    "executionTime": 19,
+    "transactionId": "176ff402e0b47668d0e033a0f67c6a0553ba6b0dd622a147ddb3d612242044a3",
+    "timestamp": "2025-01-22T14:39:34.612Z"
+  },
+  {
+    "dataID": "026a4363e013311a740710bf0d9fd1099530c3fc8c0c360520dfb54fc2b706e9",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "57c461c79a063efbe4cd5a000a96e6dc68b79e055e68f2958facc3be5834beae",
+    "timestamp": "2025-01-22T14:41:06.672Z"
+  },
+  {
+    "dataID": "c6abcf7acefad5b88389fe14ea213e64dc6dbdd4d5474e2d01c4a1254113a11f",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "0ab3b286bd6aaa4afe611f1badff9df17900621cac4cd486aede542f82ef6d89",
+    "timestamp": "2025-01-22T14:41:17.203Z"
+  },
+  {
+    "dataID": "670acd0d9d7033b322d3b85baf9e77fadb6797e554e16c9bead8375fecad1750",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "b7c3f71f4bb314ffcfb8db4c380d99b657f6efb9a2053c324b1fc3e7335a0649",
+    "timestamp": "2025-01-22T14:41:19.308Z"
+  },
+  {
+    "dataID": "029f9de4576d97e4eeaf5d4064138d1804eaaa33800199418727b52c4b0dfa52",
+    "isValid": true,
+    "executionTime": 15,
+    "transactionId": "e8a5eb03868af1f445f3f8d2aa610415001764977363b8345d206b4bef60591b",
+    "timestamp": "2025-01-22T14:41:38.039Z"
+  },
+  {
+    "dataID": "890cfc634321842dc94b60bbb241eef24887fe8b7dfa9c0a45a076edecc02dee",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "c72638b5b35676258fb045ce82635358b37acae515506c9518863bfee4f7473b",
+    "timestamp": "2025-01-22T14:42:38.653Z"
+  },
+  {
+    "dataID": "ab844d71b300d48008e919f6844517265fe4e8d048edf8d010b990b2c85b1437",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "507549f50b2088892529b540f8cee8f0633a104b771b9214ddb6b21012bdfb9b",
+    "timestamp": "2025-01-22T14:42:38.662Z"
+  },
+  {
+    "dataID": "c32f7e713868987b2144884f317c79eb43a0fec277a7eeea3baa16f764d61973",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "345160c92d770dcd4d1313d210cd82c2c791889502250d7e751560f0d2f030ae",
+    "timestamp": "2025-01-22T14:42:47.153Z"
+  },
+  {
+    "dataID": "11059e357e74aa5d6cfe139a559744088c962730d33790d761bd33899fb7f91e",
+    "isValid": true,
+    "executionTime": 15,
+    "transactionId": "3d2f83822d0df515ce910d2d19544d57598f19f8b163021fc85b9ebf06b26e36",
+    "timestamp": "2025-01-22T14:42:51.339Z"
+  },
+  {
+    "dataID": "67a0ebdf6156ccaebc0d08a80c6536331741b5e1317c548b943a73fd1e962bf1",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "9e77814196a07f6714f57151355d324ff42e733b56be65ce67264e4a5bfba828",
+    "timestamp": "2025-01-22T14:42:51.341Z"
+  },
+  {
+    "dataID": "2890772f51db50cbc0b40a25c58c6b02aafa2126054cc2025bab63e0632f114b",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "cf64d105db92096a88991180f432d5a849188a52cdf1a59de6ec2940980ba739",
+    "timestamp": "2025-01-22T14:43:11.662Z"
+  },
+  {
+    "dataID": "9c1e3a351e69b18c25e451a5d6bc144cb12197fc3c9fe3a449cfd7f57573f32f",
+    "isValid": true,
+    "executionTime": 19,
+    "transactionId": "e8c39411af3ee33142fafa11de9d8f4e60ad2bc011f295df77c7a6c2ff235171",
+    "timestamp": "2025-01-22T14:43:15.623Z"
+  },
+  {
+    "dataID": "343a192627bd47ce1a78048bc235dfce58bac5aa41a58b251134468407c7fb21",
+    "isValid": true,
+    "executionTime": 20,
+    "transactionId": "3ba540e4b3a86e70b1ae1ddecffc5505042b716eec1c20e5f2050f72a59af572",
+    "timestamp": "2025-01-22T14:43:15.626Z"
+  },
+  {
+    "dataID": "339427c0b9d0115416d4d864e1b14b8de0fd45ca7b3a62d423199ff5f9dac3bc",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "8906baa160a85b1a42a382f2e946b3848811ef5b0cfe85f33a74e1eea8118bd8",
+    "timestamp": "2025-01-22T14:46:45.209Z"
+  },
+  {
+    "dataID": "3c89c2fffb93c6855d0cd908063ce2e7ee2aeb07b0d25fb8e76062bd8ee9d2d6",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "2b1875b9e880ab37499dd99f6fd68c095ab56278b12e9d799f69188f4bb7fcdd",
+    "timestamp": "2025-01-22T14:46:47.307Z"
+  },
+  {
+    "dataID": "d5990ffc5ee25b577bca176bb6e5a4bbaa5909303b494522da17a433327f4c1d",
+    "isValid": true,
+    "executionTime": 21,
+    "transactionId": "9daf46c785947d006b2686ffa8122557cc873b26d7599978b79d66e32e40dd2c",
+    "timestamp": "2025-01-22T14:46:51.529Z"
+  },
+  {
+    "dataID": "fa392b1a1c1f4d66270851ac2b991836b43ba4a5908dc7ee6f9abea7022007d8",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "4baa7af6b6a6d549a8dc8ac16be88949ccd76c48def9e91841168ca37474ad99",
+    "timestamp": "2025-01-22T14:46:59.852Z"
+  },
+  {
+    "dataID": "a24a1df0da06d1aafa709aed9ac8e8715b164b0db64305f6fa60683f21ee268a",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "c35c7167fae3f8d962b42709dcf733a509fbc6678677445530f9e1d1be3e91ab",
+    "timestamp": "2025-01-22T14:47:04.184Z"
+  },
+  {
+    "dataID": "c1de770d52d33c32ae45a5b5c26ea7211da8ff75601365d80ef1be1c3bd1242a",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "015beafc9a0dcb51a56163cd77f66cb3033c5d6c701fd7749352d4deb9a6e03c",
+    "timestamp": "2025-01-22T14:47:13.272Z"
+  },
+  {
+    "dataID": "ed7cd150c2691a4c0a75a058f616287c323befc435702d580d1b9d4ef0fca909",
+    "isValid": true,
+    "executionTime": 20,
+    "transactionId": "7e53f57f2237bede112fadc652776860d0d3a5d48f7409023423fe53d0350b79",
+    "timestamp": "2025-01-22T14:47:13.276Z"
+  },
+  {
+    "dataID": "5e1d2713f5ebe1388dae34af88586acb61cf1a4b4b3064960a9e63b97df80e7d",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "b842e466888fdd9e9a802ad225d044df8033a7734ff02d5792eba9a9f9f360ab",
+    "timestamp": "2025-01-22T14:47:23.795Z"
+  },
+  {
+    "dataID": "6a3f2d9891279fd02e3ba99d87852f9a4d8de8a92db6cc0be4c8cc8704aff3d8",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "3c908f014f2bff7812aed3122091cbf6b609f3a1ac80586f37a2738c86d3fbd8",
+    "timestamp": "2025-01-22T14:48:16.415Z"
+  },
+  {
+    "dataID": "7218849401d69b63786762fc7933b195ad5d6f09a8b5a7e2784af1cf00e4a70c",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "2c3ef0434970e7c4334d8c89d4052ccd18511ff71f635d4525b9970a7e2662d0",
+    "timestamp": "2025-01-22T14:48:20.667Z"
+  },
+  {
+    "dataID": "0d2ed7eac5323f71eac42e90d8428e304950c132ad1321c959b079a0efbed33e",
+    "isValid": true,
+    "executionTime": 16,
+    "transactionId": "050ae161d82573be6729857068f89533bfb991d3ce30abe620b11098f559e84c",
+    "timestamp": "2025-01-22T14:48:20.674Z"
+  },
+  {
+    "dataID": "1ddcd3370a1c1039e38fa41ec587922f90d9377bd2e6187cbc9d62e72a792b7a",
+    "isValid": true,
+    "executionTime": 16,
+    "transactionId": "0c8a580b14596f25e7750fbf245574f6eb3cacbb2c5bfd0201955c31bd289581",
+    "timestamp": "2025-01-22T14:48:35.385Z"
+  },
+  {
+    "dataID": "303d8a98ece9e498df2405d24c2192a62f75527bd8ce6e4e4ed12c47052ef145",
+    "isValid": true,
+    "executionTime": 15,
+    "transactionId": "12083fdd8f73510b11ca0bbf93b2fbecccf60dd8c71d5e55de0958ea55a07a3f",
+    "timestamp": "2025-01-22T14:48:49.037Z"
+  },
+  {
+    "dataID": "d4a0435c40107f99c4064e0f7e1254224b979f0f6591006e803d900bba5fff9c",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "c70847d7000df8917577f9735d4d7b94cdec651e3b5b3fd6617894d4c6d3a6af",
+    "timestamp": "2025-01-22T15:34:17.215Z"
+  },
+  {
+    "dataID": "c211fcd18175f825dff4c37ec6ac959e314893cc428a7799b14a373244c8d1d4",
+    "isValid": true,
+    "executionTime": 17,
+    "transactionId": "62e8234afe350cc6adf563eda80743cfc76a318c80e77d97fce0c361551cffd1",
+    "timestamp": "2025-01-22T15:34:19.293Z"
+  },
+  {
+    "dataID": "6ceab8b7fa111a0cf98b911e6ac697c1945929c748508fa40b2902803057e28e",
+    "isValid": true,
+    "executionTime": 16,
+    "transactionId": "eb2562f11ac2c7fe7b4aa7712f2d0b46d33eec140d54ed06c1fa9379fd4aaa9b",
+    "timestamp": "2025-01-22T15:34:25.526Z"
+  },
+  {
+    "dataID": "98379e8bd8844f90e700e6c340dd5ce3c4e32fe1760afda50899c443c2fbe246",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "f472e9c135032b513c0ac96e1f4618abce7ef81c84e02731669a268804012246",
+    "timestamp": "2025-01-22T15:34:29.700Z"
+  },
+  {
+    "dataID": "e1d8deac948e98cd26a9d09ac0c5d1378923b10e0420fea2bb88b380201e256a",
+    "isValid": true,
+    "executionTime": 18,
+    "transactionId": "405242cee2ec6a5a7e49dc4a18a953b40305aac46932df46e9332e27ece73505",
+    "timestamp": "2025-01-22T15:34:35.480Z"
+  }
+]

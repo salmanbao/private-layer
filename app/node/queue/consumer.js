@@ -1,14 +1,18 @@
 const amqp = require("amqplib");
-const { loadContract } = require("../utils/loadContract");
+const fs = require("fs");
+const { loadContractOrg0 } = require("../utils/loadContract");
 const { ETHERMINT_TO_FABRIC_QUEUE } = require("../utils/constants");
 const {TextDecoder} = require('util');
 
 const utf8Decoder = new TextDecoder();
 let connection;
 let channel;
+// Path to the JSON file where results will be stored
+const RESULTS_FILE_PATH =  "transaction_results.json";
+
 async function listenToQueue() {
   try {
-    const { contract } = await loadContract();
+    const { contract } = await loadContractOrg0();
     // Connect to RabbitMQ server
     connection = await amqp.connect("amqp://localhost:5672");
     channel = await connection.createChannel();
@@ -44,7 +48,21 @@ async function listenToQueue() {
           const timestamp = Math.floor(startingDate.getTime() / 1000);
           const endTimestamp = Math.floor(endingDate.getTime() / 1000);
 
-          console.log(`Execution time: ${endTimestamp - timestamp} seconds`);
+          const executionTime = endTimestamp - timestamp;
+
+          console.log(`Execution time: ${executionTime} seconds`)
+          // append the result to the json file for generating metrics
+
+          const result = {
+            dataID: message.dataID,
+            isValid: message.isValid,
+            executionTime: executionTime,
+            transactionId: transactionId,
+            timestamp: new Date().toISOString()
+          };
+
+          // Append result to JSON file
+          appendResultToFile(result);
 
         } catch (error) {
           console.error("Failed to validate data:", error);
@@ -58,6 +76,38 @@ async function listenToQueue() {
     console.error("Failed to listen to queue:", error);
   }
 }
+
+/**
+ * Appends the given result object to a JSON file. If the file
+ * doesn't exist or is empty, a new array will be created.
+ */
+function appendResultToFile(newResult) {
+  let existingResults = [];
+
+  // 1. Read existing file, if any
+  try {
+    if (fs.existsSync(RESULTS_FILE_PATH)) {
+      const rawData = fs.readFileSync(RESULTS_FILE_PATH, "utf8");
+      if (rawData.trim()) {
+        existingResults = JSON.parse(rawData);
+      }
+    }
+  } catch (err) {
+    console.error("Error reading existing results file:", err);
+  }
+
+  // 2. Append the new result
+  existingResults.push(newResult);
+
+  // 3. Write updated array back to disk
+  try {
+    fs.writeFileSync(RESULTS_FILE_PATH, JSON.stringify(existingResults, null, 2));
+    console.log("Appended result to file:", RESULTS_FILE_PATH);
+  } catch (writeErr) {
+    console.error("Error writing results file:", writeErr);
+  }
+}
+
 
 // Start listening to the queue
 listenToQueue();

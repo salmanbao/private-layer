@@ -1,0 +1,32 @@
+[
+  {
+    "deviceID": "motion-sensor-6042",
+    "owner": "owner-5353",
+    "location": "Area-4768",
+    "dataHash": "99c53c8362cf0bf10815d565af88c13b5240496578f26eabf11630724f7dd7ab"
+  },
+  {
+    "deviceID": "water-sensor-7831",
+    "owner": "owner-5585",
+    "location": "Area-4937",
+    "dataHash": "166ac98f6f8ad96cb7039e6108893a8713ef5464b17c87fdc1fdfc505e5c9d5d"
+  },
+  {
+    "deviceID": "water-sensor-1627",
+    "owner": "owner-6552",
+    "location": "Area-9189",
+    "dataHash": "0c6fe71f885950ff1049defd95a3139f6b1003a627fb36170f8c390064ab9eef"
+  },
+  {
+    "deviceID": "electricity-sensor-2849",
+    "owner": "owner-5381",
+    "location": "Area-8046",
+    "dataHash": "c6d1967f15c0e58065ee75239ce57a25b40157b02c33fdfcb783aaacde192583"
+  },
+  {
+    "deviceID": "motion-sensor-4297",
+    "owner": "owner-3708",
+    "location": "Area-6057",
+    "dataHash": "c92dfe66982803357c58f3e9fe586df7fc0aeb73373c0c6ce7fba07b6ee4055b"
+  }
+]
