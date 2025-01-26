@@ -35,6 +35,10 @@ or
 ./minifab install,approve,commit -n simple -l go -v 1.0
 ```
 
+```
+./minifab anchorupdate
+```
+
 ### 5. Profile generation: (Optional: Only execute if you executed 2.2):
  ```
  ./minifab profilegen
@@ -65,7 +69,7 @@ chmod +x startmessageQueue.sh
 cd app/node
 ```
 ```
-npm run watch-events.js
+npm run watch-events
 ```
 
 #### 6.3 Run the Queue consumer
